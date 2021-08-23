@@ -1,0 +1,188 @@
+/* mediq
+tab = 762px
+phone = 570px
+*/
+
+body {
+    font-size: 1vw;
+    font-family: oswald;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.logo {
+    font-family: 'Cedarville Cursive', cursive;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 20px;
+}
+
+.top-nav-list {
+    height: 45px;
+    display: flex;
+    justify-content: end;
+}
+
+.so-list-item .facebook{
+    list-style-image: url('../media/facebook.png');
+    height: 40px;
+}
+
+.so-list-item .twitter{
+    list-style-image: url('../media/twitter.png');
+    height: 40px;
+}
+.so-list-item .rss{
+    list-style-image: url('../media/rss.png');
+    height: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: oswald;
+}
+
+.lpt-img {
+    width: 100%;
+}
+
+.landing-p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section1 .inner {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section1 .landing-img {
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.section1 {
+    background-image: radial-gradient(at top, #ff99af, #ce5c74);
+}
+
+
+.icon {
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+.line  {
+    border-bottom:solid 15px ;
+    border-color:   pink;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pro1 {
+    margin-right: 20px;
+}
+
+.product .dft-img {
+    height: 96px;
+    width: 180px;
+    border: solid 10px;
+    color: lightgrey;
+}
+
+footer {
+    background-color: black;
+}
+
+.colophon{
+    text-align: center;
+    color: grey;
+}
+
+@media screen and (max-width: 1025px) {
+
+    h1 {
+        font-size: 3.5vw;
+    }
+
+    body {
+        font-size: 1.5vw;
+    }
+
+    .product {
+        margin: 0px;
+    }
+
+    .pro1 {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+    
+    body {
+        font-size: 4vw;
+    }
+    
+
+    .logo {
+        height: 70px;
+        text-align: center;
+    }
+
+    .top-nav-list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+     .td-center {
+        text-align: center;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-around;
+    }
+    .product {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .pro1 {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+ }
+
+ @media screen and (min-width: 541px) {
+     .logo {
+         height: 80px;
+     }
+ }
+
